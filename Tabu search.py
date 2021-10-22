@@ -50,7 +50,7 @@ def swap(X):
     return X_new
 
 #%% 參數設定
-D = benchmark.shaep[1] # 維度
+D = benchmark.shape[1] # 維度
 G = 5 # 迭代次數
 L = 3 # 禁忌表長度
 
