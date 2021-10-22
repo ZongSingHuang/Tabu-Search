@@ -54,7 +54,6 @@ D = benchmark.shape[1] # 維度
 G = 5 # 迭代次數
 L = 3 # 禁忌表長度
 
-
 #%% 初始化
 X = np.random.choice(D, size=D, replace=False)
 F = fitness(X, benchmark) # 當前最佳適應值
